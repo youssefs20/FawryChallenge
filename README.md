@@ -1,6 +1,17 @@
-## ✅ Test Cases in CSharp
+# 🛒 E-Commerce System - Fawry Internship Challenge
 
-### 1. ✅ Successful Checkout with Expirable + Shippable + Digital Products
+## 📋 Task Description
+
+This project is a simplified **e-commerce system** built in **C#**, created as part of the **Fawry Internship Challenge**.
+
+## ⚙️ Technologies Used
+- Language: **C#**
+- Platform: Console Application (.NET Core)
+- No external libraries
+---
+##  Test Cases in CSharp
+
+### 1.  Successful Checkout with Expirable + Shippable + Digital Products
 
 ```  
 var cheese = new ProductBoth("Cheese", 100, 5, DateTime.Now.AddDays(3), 0.2);
@@ -56,3 +67,10 @@ cart.PutToCart(chips, 2); // more than available
 
 CartCheckout.CheckoutNow(user, cart);
 ```
+## ▶️ How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/youssefs20/FawryChallenge.git
+   cd FawryChallenge
+   ```
